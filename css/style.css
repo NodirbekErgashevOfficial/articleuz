@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: 2px dotted #DE2E54;
+    outline-offset: 2px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #fff;
+    font-family: Rubik;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.continer{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.arctive{
+    display: flex;
+    
+}
+.travel_E1{
+    background: url(img/Rectangle\ 1.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.travel_E1 h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 285px;
+    height: 58px;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.travel_E1 a{
+    font-family: Bebas Neue;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #1E90FF;
+    padding: 12px 24px;
+    margin: 0px 12px;
+    position: relative;
+    top: 30px;
+    right: 50px;
+}
+
+
+.travel_top{
+    width: 201px;
+    height: 29px;
+    font-family: Bebas Neue;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    color: #222222;
+}
+.travel_top h1{
+   margin-left: 35px;
+   
+}
+.travel_top hr{
+    width: 670px;
+    height: 0px;
+    margin-right: 60px;
+}
+.frame_tablo{
+    margin: 30px 35px;
+}
+.text_fream{
+    margin-left: 20px;
+}
+.text_fream a{
+    text-decoration: none;
+}
+
+.text_fream h3{
+    font-family: Bebas Neue;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #222222;
+    margin: 0px;
+}
+.text_fream h3:hover{
+    color: #1E90FF;
+}
+.text_fream:active{
+    opacity: 0.6;
+}
+.frame_tablo{
+    display: flex;
+    align-items: center;
+}
+.icon_time_text{
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+.icon_time{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+
+
+
+.frem_buttom{
+    width: 670px;
+    height: 40px;
+    background-color: #1E90FF;
+    border-radius: 4px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.frem_buttom a{
+    color: #fff;
+   text-decoration: none;
+}
+.frem_buttom a:hover{
+    background-color: #449ef8;
+}
+.frem_buttom a:active{
+    opacity: 0.6;
+}
